@@ -1,0 +1,195 @@
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    background-image: url('../IMG/bg10.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero .content {
+    text-align: center;
+    max-width: 48rem;
+   background-color: black;
+   border-radius: 20px;
+    align-items: center;
+    padding: 5vh 0;
+}
+.content {
+    padding: 1.4rem 20%;
+    max-width: 48rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+.hero .content h1 {
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    line-height: 1.2;
+    color: white;
+}
+
+.hero .content p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Navbar Section */
+.navbar {
+    background-color: black;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    flex-direction: row; 
+    width: 100%; 
+    justify-content: center; 
+}
+
+/* About Section */
+.about {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;  
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-about {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+
+
+/* Kategori Section */
+.kategori {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    gap: 2rem;
+    background-image: url(../IMG/bg1.jpeg);
+    background-size: cover;
+}
+
+.kategori h1 {
+    text-align: center; 
+    margin-bottom: 2rem; 
+    color: white; 
+    font-size: 2.5rem; 
+}
+
+.kategori-card {
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border: 10px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.kategori-body {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.col-md-4 {
+    display: flex;
+    flex: 1 0 33%; 
+    padding: 15px; 
+}
+
+.card-img-top { 
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover;
+}
+
+.border {
+    padding: 20px;
+    background-color: white;
+}
+
+.dashboard {
+    padding: 8vh;
+}
+
+.cont {
+   background-color: grey;
+    min-height: 160vh;
+}
+
+.dashboard h1 {
+    color: white;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    place-content: center;
+    scale: 1;
+    gap: 15px;
+    padding-top: 10px;
+    position: relative;
+    background-color: black;
+    fill: white;
+  }
+  
+  .copyright {
+    display: flex;
+    place-content: center;
+    scale: 1;
+    gap: 15px;
+    position: relative;
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
